@@ -3,10 +3,11 @@ The Team Task Tracker allows multiple users to get access to a list of activity 
 
 ![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/picture/OperationDiagram.PNG)
 
+This application can be deployed to Azure within minutes. The code is clean and the concept is simple and straight foward.
 Note about client-server architecture: 7 years ago, I implement Servlet Apache and Java SE for an automotive System and wrote much code to implement my sever and Clients. The techniques in that project are way more complicated and the amount of code I wrote is 10 times more than this. I  don't use any framework for that application and simply wrote everything from scratch (I want to see if I can accomplish the same thing differently). You can take a look at my Java-automotiveCustomizationSystem project [here](https://github.com/jackyhuynh/automotiveCustomizationSystem-app). With .NET, Visual Studio, and Microsoft VIdeo Support I completed this project in 2 days, while it took me about 25 days for the other project. I wrote this simply because I want to show how powerful platform support and framework can help developers to code and deploy their application. Please note Java have their framework (EE., Spring), but for education (and try). I did not use any Java Framework to write that Java backend. I don't mean C#(.NET) is better than Java(Spring, SE., EE.). I believed each language has its beauty and strength. 
 
 ## Technology
-- C ## Programming
+- C# Programming
 - Visual Studio Comunity
 - GitHub
 - SQL Server
@@ -14,6 +15,7 @@ Note about client-server architecture: 7 years ago, I implement Servlet Apache a
 - CSS
 - HTML
 - .NET framework
+- ASP.NET CORE
 - Object-Oriented Design
 - Encapsulation
 - Polymorphism
@@ -38,14 +40,28 @@ A step by step series of examples that tell you how to get a development env run
 
 * [Install Visual Studio](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-160#:~:text=Visual%20Studio%202019%20Installation%201%20Make%20sure%20your,...%204%20Choose%20workloads.%20...%20More%20items...) - If you haven't downloaded and installed Visual Studio and the Microsoft C/C++ tools yet, here's how to get started.
 * [Install .NET framework 5.0](https://dotnet.microsoft.com/download) - .NET is a free, cross-platform, open-source developer platform for building many different types of applications. Please download both the SDK and Runtime if missing.
-
+* There is a video that show you step by step to develop this API (back end only) and test it with Postman [(Click here)](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio). Make sure you follow the video to install all the needed component on NuGet Package Manager (Entity frame work for [SQL Server](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio)). 
 
 
 ## Running the tests
 
 Explain how to run the automated tests for this system:
-- Open Visual Studio
+- Open Visual Studio.
 - Download(or Clone) the Code from GitHub respository. click here for the [download instruction](https://www.youtube.com/watch?v=ZbEoOtEtVE8&feature=emb_logo).
+- Make sure install all the item list in Installing
+- Start the application
+```
+Hit Ctrl + F5
+```
+- A web browser will appear.
+
+![alt]()
+
+- Users can fill in any thing to test. User can also copy the address and open as many test as possible. The result sync through all the clients.
+
+![alt]()
+
+- Applications execute without any issues
 
 ## Deployment
 

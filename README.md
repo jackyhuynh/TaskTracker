@@ -38,7 +38,7 @@ A step by step series of examples that tell you how to get a development env run
 
  Visual Studio & Command-Prompt for Visual Studio:
 
-* [Install Visual Studio](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-160#:~:text=Visual%20Studio%202019%20Installation%201%20Make%20sure%20your,...%204%20Choose%20workloads.%20...%20More%20items...) - If you haven't downloaded and installed Visual Studio and the Microsoft C/C++ tools yet, here's how to get started.
+* [Install Visual Studio](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-160#:~:text=Visual%20Studio%202019%20Installation%201%20Make%20sure%20your,...%204%20Choose%20workloads.%20...%20More%20items...) - If you haven't downloaded and installed Visual Studio and the Microsoft C# tools yet, here's how to get started. Make sure C# tools is install.
 * [Install .NET framework 5.0](https://dotnet.microsoft.com/download) - .NET is a free, cross-platform, open-source developer platform for building many different types of applications. Please download both the SDK and Runtime if missing.
 * There is a video that show you step by step to develop this API (back end only) and test it with Postman [(Click here)](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio). Make sure you follow the video to install all the needed component on NuGet Package Manager (Entity frame work for [SQL Server](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio)). 
 

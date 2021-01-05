@@ -8852,11 +8852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valued Customer\\source\\repos\\WebAPI-C#\\BackEnd2.csproj",
+      "projectUniqueName": "C:\\Users\\Valued Customer\\source\\repos\\WebAPI-C#\\src\\BackEnd2.csproj",
       "projectName": "BackEnd2",
-      "projectPath": "C:\\Users\\Valued Customer\\source\\repos\\WebAPI-C#\\BackEnd2.csproj",
+      "projectPath": "C:\\Users\\Valued Customer\\source\\repos\\WebAPI-C#\\src\\BackEnd2.csproj",
       "packagesPath": "C:\\Users\\Valued Customer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Valued Customer\\source\\repos\\WebAPI-C#\\obj\\",
+      "outputPath": "C:\\Users\\Valued Customer\\source\\repos\\WebAPI-C#\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Valued Customer\\AppData\\Roaming\\NuGet\\NuGet.Config",

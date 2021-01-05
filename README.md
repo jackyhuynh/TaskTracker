@@ -1,7 +1,7 @@
 # Team Task Tracker (or activities Tracker)
 The Team Task Tracker allows multiple users to get access to a list of activity that needs to be completed. Member can assign task by simply typing their name (or coworker) and add the task to the task-list (SQL Server Implementation). This is implemented as a WEB API architecture. The sever-backend is written in C#. Implement the .NET framework so that the architecture can handle multiple users without false, and save a lot of time of writing code. The architecture is fairly simple. Users get access to web clients through any web-browser(with the correct address). Users then can send REQUEST to the backend, or simply view what is in the task list. After the backend-sever receive HTTP request(insert, update, delete, view) from the clients, it processes the request and communicates with the Data Access Layer(SQL Server). SQL Server decides what to do with the request (read, write, search, view), complete and report to backend controller. controller confirms the clients' request is completed(satisfy) and sends the HTTP response back. Please refer to the UML Diagram for more details.
 
-![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/picture/OperationDiagram.PNG)
+![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/src/picture/OperationDiagram.PNG)
 
 This application can be deployed to Azure within minutes. The code is clean and the concept is simple and straight foward.
 Note about client-server architecture: 7 years ago, I implement Servlet Apache and Java SE for an automotive System and wrote much code to implement my sever and Clients. The techniques in that project are way more complicated and the amount of code I wrote is 10 times more than this. I  don't use any framework for that application and simply wrote everything from scratch (I want to see if I can accomplish the same thing differently). You can take a look at my Java-automotiveCustomizationSystem project [here](https://github.com/jackyhuynh/automotiveCustomizationSystem-app). With .NET, Visual Studio, and Microsoft VIdeo Support I completed this project in 2 days, while it took me about 25 days for the other project. I wrote this simply because I want to show how powerful platform support and framework can help developers to code and deploy their application. Please note Java have their framework (EE., Spring), but for education (and try). I did not use any Java Framework to write that Java backend. I don't mean C#(.NET) is better than Java(Spring, SE., EE.). I believed each language has its beauty and strength. 
@@ -55,16 +55,16 @@ Hit Ctrl + F5
 ```
 - A web browser will appear.
 
-![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/picture/Index.PNG)
+![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/src/picture/Index.PNG)
 
 - Users can fill in any thing to test. User can also copy the address and open as many test as possible. The result sync through all the clients.
 
-![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/picture/Edit.PNG)
+![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/src/picture/Edit.PNG)
 
 - Applications execute without any issues
 - backend's API 
 
-![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/picture/API.PNG)
+![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/src/picture/API.PNG)
 
 ## Deployment
 

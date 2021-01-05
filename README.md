@@ -1,6 +1,8 @@
 # Team Task Tracker (or activities Tracker)
 The Team Task Tracker allows multiple users to get access to a list of activity that needs to be completed. Member can assign task by simply typing their name (or coworker) and add the task to the task-list (SQL Server Implementation). This is implemented as a client-server architecture. The sever-backend is written in C#. Implement the .NET framework so that the architecture can handle multiple users without false, and save a lot of time of writing code. The architecture is fairly simple. Users get access to web clients through any web-browser(with the correct address). Users then can send REQUEST to the backend, or simply view what is in the task list. After the backend-sever receive HTTP request(insert, update, delete, view) from the clients, it processes the request and communicates with the Data Access Layer(SQL Server). SQL Server decides what to do with the request (read, write, search, view), complete and report to backend controller. controller confirms the clients' request is completed(satisfy) and sends the HTTP response back. Please refer to the UML Diagram for more details.
 
+![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/picture/OperationDiagram.PNG)
+
 Note about client-server architecture: 7 years ago, I implement Servlet Apache and Java SE for an automotive System and wrote much code to implement my sever and Clients. The techniques in that project are way more complicated and the amount of code I wrote is 10 times more than this. I  don't use any framework for that application and simply wrote everything from scratch (I want to see if I can accomplish the same thing differently). You can take a look at my Java-automotiveCustomizationSystem project [here](https://github.com/jackyhuynh/automotiveCustomizationSystem-app). With .NET, Visual Studio, and Microsoft VIdeo Support I completed this project in 2 days, while it took me about 25 days for the other project. I wrote this simply because I want to show how powerful platform support and framework can help developers to code and deploy their application. Please note Java have their framework (EE., Spring), but for education (and try). I did not use any Java Framework to write that Java backend. I don't mean C#(.NET) is better than Java(Spring, SE., EE.). I believed each language has its beauty and strength. 
 
 ## Technology
@@ -25,11 +27,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 What things you need to install the software and how to install them
-- Visual Studio: Visual Studio is need to install. If Visual Studio already install on your computer this will be nice
-- Command-Prompt for Visual Studio: Same go here. For this particular project, I highly recommend using Command-Prompt instead of the IDE.
-- Linux: Program can be run on Linux System (if you familiar with Linux command line). 
-- Any C/C++ compiler: If you have any compiler that already install then I highly recommend use your own compiler with out installing anything (time consuming).
-Give examples
+- Visual Studio: Visual Studio must be installed for tis particular application. If Visual Studio already install on your computer this will be nice since we can start the program immediately.
+- .NET framework must also be installed. Usually .NET is included with Visual Studio, but make sure to check.
 
 ### Installing
 
@@ -38,17 +37,15 @@ A step by step series of examples that tell you how to get a development env run
  Visual Studio & Command-Prompt for Visual Studio:
 
 * [Install Visual Studio](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-160#:~:text=Visual%20Studio%202019%20Installation%201%20Make%20sure%20your,...%204%20Choose%20workloads.%20...%20More%20items...) - If you haven't downloaded and installed Visual Studio and the Microsoft C/C++ tools yet, here's how to get started.
-* [Developer Command Prompt for Visual Studio](https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs#:~:text=%20Developer%20Command%20Prompt%20for%20Visual%20Studio%20,from%20inside%20Visual%20Studio.%20For%20easier...%20More) - Developer Command Prompt for Visual Studio enables you to use .NET Framework tools more easily. It's a command prompt that automatically sets specific environment variables. After opening Developer Command Prompt, you can enter the commands for .NET Framework tools such as ildasm or clrver.
+* [Install .NET framework 5.0](https://dotnet.microsoft.com/download) - .NET is a free, cross-platform, open-source developer platform for building many different types of applications. Please download both the SDK and Runtime if missing.
 
-Linux Ubuntu 18.4 LTS
-* [Linux Ubuntu 18.4 LTS](https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab) can be download at Microsoft Store
+
 
 ## Running the tests
 
 Explain how to run the automated tests for this system:
-* [Linux Compilers](https://askubuntu.com/questions/61408/what-is-a-command-to-compile-and-run-c-programs#:~:text=The%20simplest%20way%20to%20compile%20a%20C%2B%2B%20program,only%20compiler%20capable%20of%20compiling%20the%20Linux%20kernel.)- Locate the home folder that contain the program (by using the cd command). Call the g++ compiler and execute.
-* [Visual Studio Command Line](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-160
-)
+- Open Visual Studio
+- Download(or Clone) the Code from GitHub respository. click here for the [download instruction](https://www.youtube.com/watch?v=ZbEoOtEtVE8&feature=emb_logo).
 
 ## Deployment
 

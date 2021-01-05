@@ -1,7 +1,7 @@
 # Team Task Tracker (or activities Tracker)
-The Team Task Tracker allow multiple users get access to a list of activity that need to be completed. Member can assign task by simple typing their name (or coworker) and add the task to the task-list (SQL Sever Implementation). This is implement as a client-sever archtecture. The sever-backend is written in C#. Implement the .NET framework so that the architecture can handle multiple users without false, and save a lot of time of writting code. The archtecture is fairly simple. Users get access to backend through any web-browser. After the backend-sever receive HTTP request(insert, update, delete, view) from the clients, it process the request and commounicate with the Data Access Layer(SQL Server). After backend process the clients's request. It send the HTTP response back. Please refer to the UML Diagram.
+The Team Task Tracker allows multiple users to get access to a list of activity that needs to be completed. Member can assign task by simply typing their name (or coworker) and add the task to the task-list (SQL Server Implementation). This is implemented as a client-server architecture. The sever-backend is written in C#. Implement the .NET framework so that the architecture can handle multiple users without false, and save a lot of time of writing code. The architecture is fairly simple. Users get access to web clients through any web-browser(with the correct address). Users then can send REQUEST to the backend, or simply view what is in the task list. After the backend-sever receive HTTP request(insert, update, delete, view) from the clients, it processes the request and communicates with the Data Access Layer(SQL Server). SQL Server decides what to do with the request (read, write, search, view), complete and report to backend controller. controller confirms the clients' request is completed(satisfy) and sends the HTTP response back. Please refer to the UML Diagram for more details.
 
-8 years ago, I implement Servlet Apache and Java SE for an automotive System, and wrote many code to implement my sever and Clients. The techniquies in that project is way more complicated and the amount of code I wrote is 10 times more than this. I actually doen't use any frame work for that application, and simply wrote everything from stratch (I want to see if I be able to acomplished the same thing in diffrent way). You can take a look of my Java-automotiveCustomizationSystem project [here](https://github.com/jackyhuynh/automotiveCustomizationSystem-app). With .NET, Visual Studio, and Microsoft VIdeo Support I completed this project in 2 days, while it took me about 25 days for the other project. I wrote this simply because I want to show how powerful a platfrom support and framework can actually help developers to code and deploy their application. Please note Java have their own framework (EE., Spring), but for the purpose of eduction (and try). I did not use any Java Framework to write that Java backend. I don't mean C#(.NET) is better than Java(Spring, SE., EE.). I believed each languages have its own beauty and strength. 
+Note about client-server architecture: 7 years ago, I implement Servlet Apache and Java SE for an automotive System and wrote much code to implement my sever and Clients. The techniques in that project are way more complicated and the amount of code I wrote is 10 times more than this. I  don't use any framework for that application and simply wrote everything from scratch (I want to see if I can accomplish the same thing differently). You can take a look at my Java-automotiveCustomizationSystem project [here](https://github.com/jackyhuynh/automotiveCustomizationSystem-app). With .NET, Visual Studio, and Microsoft VIdeo Support I completed this project in 2 days, while it took me about 25 days for the other project. I wrote this simply because I want to show how powerful platform support and framework can help developers to code and deploy their application. Please note Java have their framework (EE., Spring), but for education (and try). I did not use any Java Framework to write that Java backend. I don't mean C#(.NET) is better than Java(Spring, SE., EE.). I believed each language has its beauty and strength. 
 
 ## Technology
 - C ## Programming
@@ -12,8 +12,13 @@ The Team Task Tracker allow multiple users get access to a list of activity that
 - CSS
 - HTML
 - .NET framework
-- Opject Oriented Design
+- Object-Oriented Design
 - Encapsulation
+- Polymorphism
+- API
+- web API
+
+
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.

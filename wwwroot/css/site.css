@@ -15,11 +15,11 @@
 
 h1 {
 	color: #342B09;
-	margin: 7px;
+	margin: 4px;
 	text-align: center;
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
-	font-size: 9em;
+	font-size: 7em;
 	font-weight: 900;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -32,7 +32,7 @@ h3 {
 	padding-right: 4em;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 35px;
+	font-size: 20px;
 	letter-spacing: 0.4em;
 	text-indent: 1em;
 	width: auto;
@@ -58,7 +58,7 @@ body {
 }		
 
 hr {
-	width: 50em;
+	width: 120em;
 	border: 2px;
 	color: black;
 }

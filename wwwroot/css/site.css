@@ -13,120 +13,123 @@
 */
 
 
-body 	
-		{
-			background-position: right top;
-			font-family: Arial, Helvetica, sans-serif
-			}
-
 h1 {
-		font-size: 40em;
-		letter-spacing: 0.4em;
-		text-indent: 1em
+	color: #342B09;
+	margin: 7px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 9em;
+	font-weight: 900;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: underline,overline;
 }
 
-h2 		{
-			font-size: 20em;
-			letter-spacing: 0.4em; 
-			text-indent: 1em
-			}
-			
-h3 		{
-			width: 20em; 
-			padding-left: 1em;
-			}
-h2, h3 
-		{	color: white; 
-			background-color: red}
-address 
-		{
-			text-align: center;
-			font: normal small-caps 0.8em sans-serif;
-			border-top: 0.7em double black;
-			padding-top: 1em;
-			margin-top: 1em;
-			}
-
-#decor_line
-		{
-			border-top: 0.5em double black;
-			padding-top: 1em;
-			margin-top	: 2em;
-		}		
-a 			
-		{
-			color: black;
-			display: block; 
-			margin: 0.3em;
-			text-decoration: none;	
-			}
-			
-hr		
-		{
-			width: 50em;
-			border: 2px;
-			color: black;
-		}
-	
-
-		
-#promoimage 
-		{
-			float: right;
-			margin: 0em 0em 1em 1em;
-			}
-			
-#outer 	{
-			width: 50em;
-			}
-			
-#links 	
-		{
-			float: left; 
-			width: 10em; 
-			font: 7;
-			background-color: black;
-			border-style: outset; 
-			border-width: 0.2em;
-			border: 9px double red;
-
-			}
-		
-#inner {
-			margin-left: 12em; 
-			padding-left: 1em;
-			border-left: 0.3em solid black;
-			text-decoration: none;	
-			}
-			
-#box			
-		{
-			display:block;
-			font-size: 10pt;
-			background-color: floralwhite;
-			border: 2px black; 
-			border-style: solid;
-			text-decoration: none;
-			text-align: center;			
-			margin-top: 10px;
-			margin-left: 5px;
-			margin-right: 5px;
-			margin-bottom: 10px;
-		}
-
-#front_image {
+h3 {
+	display: block;
+	padding-left: 4em;
+	padding-right: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 35px;
+	letter-spacing: 0.4em;
+	text-indent: 1em;
+	width: auto;
+	color: white;
+	background-color: red;
 	text-align: center;
 }
-		
-#h2_header
-			{
-				text-align: center;
-				text-transform: uppercase;
-			}
 
-#bottom_image{
-				border: 5px solid red; 
-				text-align : center ;
-				background-color: black;
+body {
+	background-color: white;
+	font-size: 10px;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
+
+#decor_line {
+	border-top: 0.5em double black;
+	padding-top: 1em;
+	margin-top: 2em;
+}		
+
+hr {
+	width: 50em;
+	border: 2px;
+	color: black;
+}
+
+
+#editForm {
+	display: block;
+	font-size: 10pt;
+	background-color: floralwhite;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+#design {
+	display: block;
+	font-size: 10pt;
+	background-color: floralwhite;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+
+table.reference th {
+	height: 19%;
+	border: 1px solid gray;
+	vertical-align: top;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}	
+
+.serif {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.sansserif {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+.line {
+	border: 1.5px solid #B08A03;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.design {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #B08A03;
+	font-size: large;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

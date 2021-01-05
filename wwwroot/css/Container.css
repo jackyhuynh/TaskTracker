@@ -54,20 +54,3 @@ table.reference td
 		font-size: 8px;
 	}	
 	
-table.reference h3
-	{
-		margin	:	0px;
-		padding	:	0px;
-	}
-	
-.weekend
-	{
-		background-color: rgb(255,232,232);
-	} 
-
-table.reference thead 
-			{
-				color: white; 
-				background-color: red;
-				letter-spacing: 5px;
-			}

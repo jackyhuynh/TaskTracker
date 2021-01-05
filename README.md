@@ -1,15 +1,26 @@
-# Team Task Tracker
-Registration System is a group project using C#. Registration System work as its name, a registration system for students. The application contains three data structures (binary search tree, heap, and a hashtable). Data will be read and store in the three data structures. A control manager will manage the insert, update, and delete each Object on all the data structures. There also helpers objects (File-Reader, Student, and Data) was implemented to ensure program security and abstract design. The idea with three data sucture is for back up and Optimized Search Engine. Each data sucture is perform diffrent on each Search.
+# Team Task Tracker (or activities Tracker)
+The Team Task Tracker allow multiple users get access to a list of activity that need to be completed. Member can assign task by simple typing their name (or coworker) and add the task to the task-list (SQL Sever Implementation). This is implement as a client-sever archtecture. The sever-backend is written in C#. Implement the .NET framework so that the architecture can handle multiple users without false, and save a lot of time of writting code. The archtecture is fairly simple. Users get access to backend through any web-browser. After the backend-sever receive HTTP request(insert, update, delete, view) from the clients, it process the request and commounicate with the Data Access Layer(SQL Server). After backend process the clients's request. It send the HTTP response back. Please refer to the UML Diagram.
+
+8 years ago, I implement Servlet Apache and Java SE for an automotive System, and wrote many code to implement my sever and Clients. The techniquies in that project is way more complicated and the amount of code I wrote is 10 times more than this. I actually doen't use any frame work for that application, and simply wrote everything from stratch (I want to see if I be able to acomplished the same thing in diffrent way). You can take a look of my Java-automotiveCustomizationSystem project [here](https://github.com/jackyhuynh/automotiveCustomizationSystem-app). With .NET, Visual Studio, and Microsoft VIdeo Support I completed this project in 2 days, while it took me about 25 days for the other project. I wrote this simply because I want to show how powerful a platfrom support and framework can actually help developers to code and deploy their application. Please note Java have their own framework (EE., Spring), but for the purpose of eduction (and try). I did not use any Java Framework to write that Java backend. I don't mean C#(.NET) is better than Java(Spring, SE., EE.). I believed each languages have its own beauty and strength. 
 
 ## Technology
-C++, Pointer, Object-Oriented Design, Encapsulation, Pollymorphism, Data Structures, Algorithm, Memory Management
+- C ## Programming
+- Visual Studio Comunity
+- GitHub
+- SQL Server
+- JavaScript
+- CSS
+- HTML
+- .NET framework
+- Opject Oriented Design
+- Encapsulation
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 What things you need to install the software and how to install them
-- Visual Studio: If install visual studio to run this program only will be a waste of time. I highly recommend using Linux Command Line (g++) instead. If Visual Studio already install on your computer this will be nice
+- Visual Studio: Visual Studio is need to install. If Visual Studio already install on your computer this will be nice
 - Command-Prompt for Visual Studio: Same go here. For this particular project, I highly recommend using Command-Prompt instead of the IDE.
 - Linux: Program can be run on Linux System (if you familiar with Linux command line). 
 - Any C/C++ compiler: If you have any compiler that already install then I highly recommend use your own compiler with out installing anything (time consuming).

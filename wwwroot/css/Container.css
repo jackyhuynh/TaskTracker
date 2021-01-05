@@ -1,0 +1,73 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 3
+   Tutorial Case
+
+   Sunny Acres Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         container.css
+   Supporting Files: none
+
+*/
+
+table.reference dd, table.reference dt, table.reference dl
+	{
+		margin			:	3px;
+		padding			:	3px;
+	}
+	
+table.reference
+	{
+		border			:	1px solid black;
+		border-collapse	: 	separate;
+		border-spacing	:	5px;
+		font-size		:	8px;
+		margin-bottom	:	20px;
+
+	}
+
+caption
+	{
+		text-align		: 	left;
+		font-size		: 	16px;
+		letter-spacing	: 	3px;
+	}
+
+	
+table.reference col
+	{
+		width:	14%;
+	}
+
+table.reference thead td
+	{
+		height: 5%;
+	}
+
+table.reference td
+	{
+		height: 19%;
+		border:	1px solid gray;
+		vertical-align: top;
+		font-size: 8px;
+	}	
+	
+table.reference h3
+	{
+		margin	:	0px;
+		padding	:	0px;
+	}
+	
+.weekend
+	{
+		background-color: rgb(255,232,232);
+	} 
+
+table.reference thead 
+			{
+				color: white; 
+				background-color: red;
+				letter-spacing: 5px;
+			}

@@ -1,17 +1,9 @@
 /*
-   New Perspectives on HTML and XHTML 5th Edition
-   Tutorial 3
-   Tutorial Case
-
-   Sunny Acres Style Sheet
    Author:			Truc Huynh
    Date:   
-
    Filename:         style.css
    Supporting Files: none
-
 */
-
 
 h1 {
 	color: #342B09;
@@ -50,19 +42,17 @@ body {
 	margin-right: 20px;
 }
 
-
-#decor_line {
-	border-top: 0.5em double black;
-	padding-top: 1em;
-	margin-top: 2em;
-}		
-
 hr {
 	width: 120em;
 	border: 2px;
 	color: black;
 }
 
+#decor_line {
+	border-top: 0.5em double black;
+	padding-top: 1em;
+	margin-top: 2em;
+}		
 
 #editForm {
 	display: block;
@@ -89,7 +79,6 @@ hr {
 	margin-right: 5px;
 	margin-bottom: 10px;
 }
-
 
 table.reference th {
 	height: 19%;

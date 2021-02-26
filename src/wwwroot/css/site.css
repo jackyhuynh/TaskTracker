@@ -80,6 +80,12 @@ hr {
 	margin-bottom: 10px;
 }
 
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+	height: 100%;
+}
+
 table.reference th {
 	height: 19%;
 	border: 1px solid gray;

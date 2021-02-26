@@ -1,59 +1,35 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>To-do List for Team</title>
-    <link rel="stylesheet" type="text/css" href="css/site.css" />
+    <title>Simple Map</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="js/index.js"></script>
+    <style type="text/css">
+         /* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+         #map {
+             height: 100%;
+         }
+
+         /* Optional: Makes the sample page fill the window. */
+         html,
+         body {
+             height: 100%;
+             margin: 0;
+             padding: 0;
+         }
+    </style>
+    <script>
+        let map;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: -34.397, lng: 150.644 },
+                zoom: 8
+            });
+        }
+    </script>
 </head>
-
 <body>
-    <h1>To-do CRUD</h1>
-    <br>
-    <hr id="decor_line">
-    <br>
-    <div id="design">
-        <h3>Add</h3>
-        <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-            <input type="text" id="add-name" placeholder="New to-do">
-            <input type="submit" value="Add">
-        </form>
-
-    </div>
-
-    <! --decoration line -->
-    <hr id="decor_line">
-
-    <div id="editForm">
-        <h3>Edit</h3>
-        <form action="javascript:void(0);" onsubmit="updateItem()">
-            <input type="hidden" id="edit-id">
-            <input type="checkbox" id="edit-isComplete">
-            <input type="text" id="edit-name">
-            <input type="submit" value="Save">
-            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
-        </form>
-        <p id="counter"></p>
-    </div>
-    <div id="design">
-        <table>
-            <tr>
-                <th>Is Complete?  </th>
-                <th>  Name</th>
-                <th></th>
-                <th></th>
-            </tr>
-            <tbody id="todos"></tbody>
-        </table>
-
-
-        <script src="js/site.js" asp-append-version="true"></script>
-        <script type="text/javascript">
-            getItems();
-        </script>
-    </div>
-
     <div id="map"></div>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
@@ -61,7 +37,3 @@
             async></script>
 </body>
 </html>
-
-
-
-

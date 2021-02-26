@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <title>To-do List for Team</title>
     <link rel="stylesheet" type="text/css" href="css/site.css" />
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="js/index.js"></script>
 </head>
 
 <body>
     <h1>To-do CRUD</h1>
     <br>
-    <hr id="decor_line">
+    <hr id="decor_line">        <! --decoration line -->
     <br>
+
+    <! --Add Item -->
     <div id="design">
         <h3>Add</h3>
         <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
             <input type="text" id="add-name" placeholder="New to-do">
             <input type="submit" value="Add">
         </form>
-
     </div>
 
-    <! --decoration line -->
-    <hr id="decor_line">
+    <hr id="decor_line">    <! --decoration line -->
 
-    <div id="editForm">
+    <! --View Map -->
+    <div id="design">
+        <h3>View Map</h3>
+        <a href="map.html">Click here to view Map</a>
+        <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+            <input type="text" id="add-name" placeholder="New to-do">
+            <input type="submit" value="Add">
+        </form>
+    </div>
+
+    <hr id="decor_line">    <! --decoration line -->
+
+    <! --Change Item -->
+    <div id="design">
         <h3>Edit</h3>
         <form action="javascript:void(0);" onsubmit="updateItem()">
             <input type="hidden" id="edit-id">
@@ -36,6 +47,10 @@
         </form>
         <p id="counter"></p>
     </div>
+
+
+
+
     <div id="design">
         <table>
             <tr>
@@ -54,11 +69,6 @@
         </script>
     </div>
 
-    <div id="map"></div>
-
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4fJjrC_WHXtQ1LsZ-IktYYXA7MLi6MX4&callback=initMap&libraries=&v=weekly"
-            async></script>
 </body>
 </html>
 

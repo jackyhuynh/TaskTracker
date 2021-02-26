@@ -8852,11 +8852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valued Customer\\source\\repos\\WebAPI-C#\\src\\BackEnd2.csproj",
+      "projectUniqueName": "C:\\Users\\Valued Customer\\Documents\\source\\C#_WebAPI\\src\\BackEnd2.csproj",
       "projectName": "BackEnd2",
-      "projectPath": "C:\\Users\\Valued Customer\\source\\repos\\WebAPI-C#\\src\\BackEnd2.csproj",
+      "projectPath": "C:\\Users\\Valued Customer\\Documents\\source\\C#_WebAPI\\src\\BackEnd2.csproj",
       "packagesPath": "C:\\Users\\Valued Customer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Valued Customer\\source\\repos\\WebAPI-C#\\src\\obj\\",
+      "outputPath": "C:\\Users\\Valued Customer\\Documents\\source\\C#_WebAPI\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Valued Customer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8926,7 +8926,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

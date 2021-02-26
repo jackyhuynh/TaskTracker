@@ -450,7 +450,6 @@ C:\Users\Valued Customer\Documents\source\C#_WebAPI\src\bin\Debug\netcoreapp3.1\
 C:\Users\Valued Customer\Documents\source\C#_WebAPI\src\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Valued Customer\Documents\source\C#_WebAPI\src\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Valued Customer\Documents\source\C#_WebAPI\src\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Valued Customer\Documents\source\C#_WebAPI\src\obj\Debug\netcoreapp3.1\BackEnd2.csprojAssemblyReference.cache
 C:\Users\Valued Customer\Documents\source\C#_WebAPI\src\obj\Debug\netcoreapp3.1\BackEnd2.AssemblyInfoInputs.cache
 C:\Users\Valued Customer\Documents\source\C#_WebAPI\src\obj\Debug\netcoreapp3.1\BackEnd2.AssemblyInfo.cs
 C:\Users\Valued Customer\Documents\source\C#_WebAPI\src\obj\Debug\netcoreapp3.1\BackEnd2.csproj.CoreCompileInputs.cache

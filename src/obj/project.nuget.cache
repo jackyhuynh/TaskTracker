@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pAD376feCk5KQitjVecN0lDZyh9DT1nthCbyVoZNKowkaBHg6DkdM1lFR1vR7ZqTiz+WSaSvlfcs/D8PXUKvNQ==",
+  "dgSpecHash": "PNX+/X0TI/I7Z2hGIjW3yrKxZ6An01+mr8JBZADlyUguIH3OfkAOehUSv/dtYu+WCjBPtGRzbys8JaedBaH0Iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Valued Customer\\Documents\\source\\C#_WebAPI\\src\\BackEnd2.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Valued Customer\\.nuget\\packages\\gmaps-api-net\\0.32.0\\gmaps-api-net.0.32.0.nupkg.sha512",
     "C:\\Users\\Valued Customer\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Valued Customer\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Valued Customer\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

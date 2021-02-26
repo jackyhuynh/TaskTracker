@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "gmaps-api-net/0.32.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.3/Google.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Maps.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2759,6 +2771,19 @@
     }
   },
   "libraries": {
+    "gmaps-api-net/0.32.0": {
+      "sha512": "1NpLt91KY0/AqGIpKmNbCNOj6uZjPbirdsnQJAGFHVLR3xHT2BrPsbVSy0LX2GZbaYuhijvourud9eQ4Q9QTyw==",
+      "type": "package",
+      "path": "gmaps-api-net/0.32.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gmaps-api-net.0.32.0.nupkg.sha512",
+        "gmaps-api-net.nuspec",
+        "lib/net461/Google.Maps.dll",
+        "lib/netstandard1.3/Google.Maps.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "type": "package",
@@ -8843,7 +8868,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.9",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.9",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.9",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
+      "gmaps-api-net >= 0.32.0"
     ]
   },
   "packageFolders": {
@@ -8906,6 +8932,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.4, )"
+          },
+          "gmaps-api-net": {
+            "target": "Package",
+            "version": "[0.32.0, )"
           }
         },
         "imports": [

@@ -2,8 +2,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>To-do CRUD</title>
-    <link rel="stylesheet" href="css/site.css" />
+    <title>To-do List for Team</title>
+    <link rel="stylesheet" type="text/css" href="css/site.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="./index.js"></script>
 </head>
 
 <body>
@@ -51,5 +53,14 @@
             getItems();
         </script>
     </div>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+            async></script>
 </body>
 </html>
+
+
+
+

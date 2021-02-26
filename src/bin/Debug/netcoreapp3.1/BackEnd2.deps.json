@@ -29,6 +29,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.9",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.9",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
+          "gmaps-api-net": "0.32.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -303,6 +304,20 @@
         },
         "compile": {
           "BackEnd2.dll": {}
+        }
+      },
+      "gmaps-api-net/0.32.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Maps.dll": {
+            "assemblyVersion": "0.32.0.0",
+            "fileVersion": "0.32.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Google.Maps.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -4014,6 +4029,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "gmaps-api-net/0.32.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1NpLt91KY0/AqGIpKmNbCNOj6uZjPbirdsnQJAGFHVLR3xHT2BrPsbVSy0LX2GZbaYuhijvourud9eQ4Q9QTyw==",
+      "path": "gmaps-api-net/0.32.0",
+      "hashPath": "gmaps-api-net.0.32.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",

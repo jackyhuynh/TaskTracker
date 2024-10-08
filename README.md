@@ -1,101 +1,41 @@
-# Team Task Tracker (or activities Tracker)
-The Team Task Tracker allows multiple users to get access to a list of activity that needs to be completed. Member can assign task by simply typing their name (or coworker) and add the task to the task-list (SQL Server Implementation). This is implemented as a WEB API architecture. The sever-backend is written in C#. Implement the .NET framework so that the architecture can handle multiple users without false, and save a lot of time of writing code. The architecture is fairly simple. Users get access to web clients through any web-browser(with the correct address). Users then can send REQUEST to the backend, or simply view what is in the task list. After the backend-sever receive HTTP request(insert, update, delete, view) from the clients, it processes the request and communicates with the Data Access Layer(SQL Server). SQL Server decides what to do with the request (read, write, search, view), complete and report to backend controller. controller confirms the clients' request is completed(satisfy) and sends the HTTP response back. Please refer to the UML Diagram for more details.
+# Task Tracker
 
-![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/src/picture/OperationDiagram.PNG)
+The **Team Task Tracker** is a web-based application that allows multiple users to manage and assign tasks efficiently. Users can assign tasks by typing their or their coworkers' names, adding the task to a shared list stored in an SQL Server database. The backend is implemented using C# and .NET, designed to handle multiple users simultaneously without conflicts. 
 
-This application can be deployed to Azure within minutes. The code is clean and the concept is simple and straight foward.
-Note about client-server architecture: 7 years ago, I implement Servlet Apache and Java SE for an automotive System and wrote much code to implement my sever and Clients. The techniques in that project are way more complicated and the amount of code I wrote is 10 times more than this. I  don't use any framework for that application and simply wrote everything from scratch (I want to see if I can accomplish the same thing differently). You can take a look at my Java-automotiveCustomizationSystem project [here](https://github.com/jackyhuynh/automotiveCustomizationSystem-app). With .NET, Visual Studio, and Microsoft VIdeo Support I completed this project in 2 days, while it took me about 25 days for the other project. I wrote this simply because I want to show how powerful platform support and framework can help developers to code and deploy their application. Please note Java have their framework (EE., Spring), but for education (and try). I did not use any Java Framework to write that Java backend. I don't mean C#(.NET) is better than Java(Spring, SE., EE.). I believed each language has its beauty and strength. 
+The architecture follows a simple web API design, where users interact with the system through any web browser. Users send requests (insert, update, delete, view) to the backend, which communicates with the SQL Server database to process these requests and returns responses to the user.
 
-## Technology
-- C# Programming
-- Visual Studio Comunity
-- GitHub
-- SQL Server
-- JavaScript
-- CSS
-- HTML
-- .NET framework
-- ASP.NET CORE
-- Object-Oriented Design
-- Encapsulation
-- Polymorphism
-- API
-- web API
+This project highlights the power of modern frameworks like .NET in reducing development time and complexity compared to older, more manual setups like Java SE/Servlets.
 
-
+## Technology Stack
+- **Backend**: C#, .NET Framework, ASP.NET Core, SQL Server
+- **Frontend**: JavaScript, HTML, CSS
+- **Development Environment**: Visual Studio Community, GitHub
+- **Design Concepts**: Object-Oriented Programming, API, Encapsulation, Polymorphism
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Follow these steps to set up the project for development and testing.
 
 ### Prerequisites
-What things you need to install the software and how to install them
-- Visual Studio: Visual Studio must be installed for tis particular application. If Visual Studio already install on your computer this will be nice since we can start the program immediately.
-- .NET framework must also be installed. Usually .NET is included with Visual Studio, but make sure to check.
+- **Visual Studio**: Ensure Visual Studio is installed, which is essential for development.
+- **.NET Framework**: Confirm that the .NET SDK and runtime are installed, typically included with Visual Studio.
 
-### Installing
+### Installation
+1. Install Visual Studio and C# development tools.
+2. Download the latest version of the .NET framework.
+3. Follow the steps to set up the backend using Entity Framework for SQL Server.
 
-A step by step series of examples that tell you how to get a development env running
+### Running the Application
+1. Clone the repository from GitHub.
+2. Open the project in Visual Studio.
+3. Press `Ctrl + F5` to start the application.
+4. A web browser will launch, displaying the task tracker interface.
+5. Users can add tasks, assign them to others, and manage the task list in real time.
 
- Visual Studio & Command-Prompt for Visual Studio:
+## Testing
+To run tests:
+1. Start the application in Visual Studio.
+2. Interact with the task tracker through the browser to test features like adding, editing, or deleting tasks.
+3. The system synchronizes across multiple clients in real-time.
 
-* [Install Visual Studio](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-160#:~:text=Visual%20Studio%202019%20Installation%201%20Make%20sure%20your,...%204%20Choose%20workloads.%20...%20More%20items...) - If you haven't downloaded and installed Visual Studio and the Microsoft C# tools yet, here's how to get started. Make sure C# tools is install.
-* [Install .NET framework 5.0](https://dotnet.microsoft.com/download) - .NET is a free, cross-platform, open-source developer platform for building many different types of applications. Please download both the SDK and Runtime if missing.
-* There is a video that show you step by step to develop this API (back end only) and test it with Postman [(Click here)](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio). Make sure you follow the video to install all the needed component on NuGet Package Manager (Entity frame work for [SQL Server](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio)). 
-
-
-## Running the tests
-
-Explain how to run the automated tests for this system:
-- Open Visual Studio.
-- Download(or Clone) the Code from GitHub respository. click here for the [download instruction](https://www.youtube.com/watch?v=ZbEoOtEtVE8&feature=emb_logo).
-- Make sure install all the item list in Installing
-- Start the application
-```
-Hit Ctrl + F5
-```
-- A web browser will appear.
-
-![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/src/picture/Index.PNG)
-
-- Users can fill in any thing to test. User can also copy the address and open as many test as possible. The result sync through all the clients.
-
-![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/src/picture/Edit.PNG)
-
-- Applications execute without any issues
-- backend's API 
-
-![alt](https://github.com/jackyhuynh/TeamActivityTracker/blob/master/src/picture/API.PNG)
-
-## Deployment
-
-Can be deploy to any embedded system without any problem. Can also make API or libary using this. 
-
-## Built With
-
-* [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) - The full-featured integrated development environment (IDE) for Android, iOS, Windows, web, and cloud 
-* [.NET](https://dotnet.microsoft.com/download/dotnet-framework) -  Free. Cross-platform. Open source. A developer platform for building Internet of Thing(IOT), Microservices, Desktop, Cloud, Mobile, Machine Learning, Web, Game.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Truc Huynh** - *Initial work* - [TrucDev](https://github.com/jackyhuynh)
-
-
-## References
-my README.md format was retrieved from
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-* **Rick Anderson, Kirk Larkin, and Mike Wasson** - *Initial work* -[Tutorial: Create a web API with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
-
-
+## Reflection on Frameworks
+Seven years ago, I built an automotive system using Java SE/Servlets, which required writing much more code and lacked the streamlined tools provided by modern frameworks. With .NET and Visual Studio, I completed this task tracker in two days compared to 25 days for the Java project. While both languages have their strengths, this project demonstrates the time-saving advantages of platform support and frameworks.

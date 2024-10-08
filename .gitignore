@@ -1,0 +1,95 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vscode/*
+.vs/
+.vs/*
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.ipch
+
+# Avoid including build outputs
+bin/
+obj/
+debug/
+release/
+
+# Include NuGet Packages folder (if not using package restore)
+# Uncomment if you don't want to use NuGet package restore
+# packages/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore build results
+**/bin/
+**/obj/
+
+# Ignore logs, database, and other generated files
+*.log
+*.tlog
+*.pdb
+*.mdb
+*.dbmdl
+*.ldf
+*.mdf
+
+# Ignore publish and deploy folders
+publish/
+*.publishsettings
+
+# Ignore user-specific settings
+*.rsuser
+*.suo
+*.userprefs
+
+# Ignore IIS config and deployment-related files
+*.Publish.xml
+*.deploy.cmd
+*.deploy-readme.txt
+*.pubxml
+*.pubxml.user
+
+# Ignore Rider and JetBrains related files
+.idea/
+*.sln.iml
+
+# Ignore Dotnet Tool Files
+.dotnet_tools/
+
+# Ignore Coverage Files
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore logs and temporary files from SQL Server
+*.ldf
+*.mdf
+
+# Windows
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# OSX
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
